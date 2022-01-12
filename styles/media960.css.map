@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,UAAW;EACH,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,WAAW;;AAGtC,UAAW;EACP,WAAW,EAAE,UAAU",
+"sources": ["media960.scss"],
+"names": [],
+"file": "media960.css"
+}

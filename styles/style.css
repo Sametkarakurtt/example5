@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: 'Rubik', sans-serif; }
+
+body {
+  background-color: #0f1424; }
+
+.container {
+  width: 92%;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.2rem; }
+
+.menu-card {
+  background-color: #1c1f4a;
+  border-radius: 1.6rem;
+  width: 100%; }
+  .menu-card .card-report {
+    background-color: #5847eb;
+    border-radius: 1.6rem;
+    padding: 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1.8rem; }
+    .menu-card .card-report img {
+      width: 26%;
+      max-width: 130px;
+      border: 3px solid white;
+      border-radius: 50%; }
+    .menu-card .card-report .report {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      gap: 0.4rem; }
+      .menu-card .card-report .report p {
+        color: #bdc1ff;
+        font-size: 1.5rem; }
+      .menu-card .card-report .report .name {
+        color: white;
+        font-size: 2.4rem;
+        font-weight: 300; }
+  .menu-card .menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.5rem; }
+    .menu-card .menu .menu-link {
+      color: #6f76c8;
+      font-size: 1.8rem;
+      cursor: pointer; }
+      .menu-card .menu .menu-link:hover {
+        color: white; }
+    .menu-card .menu .menu-active {
+      color: white; }
+
+.regular-card {
+  width: 100%;
+  border-radius: 2rem;
+  background-repeat: no-repeat;
+  background-position: 90% 0; }
+  .regular-card .property-card {
+    position: relative;
+    background-color: #1c1f4a;
+    margin-top: 4rem;
+    border-radius: 1.6rem;
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem; }
+    .regular-card .property-card:hover {
+      background-color: #33387a; }
+    .regular-card .property-card .row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%; }
+      .regular-card .property-card .row .title {
+        color: white;
+        font-size: 1.8rem;
+        font-weight: 500;}
+      .regular-card .property-card .row .points {
+        display: flex;
+        align-items: center;
+        justify-content: center;}
+        .regular-card .property-card .row .points:hover .point {
+          background-color: white; }
+        .regular-card .property-card .row .points .point {
+          background-color: #bdc1ff;
+          width: 0.4rem;
+          height: 0.4rem;
+          border-radius: 100%;
+          margin: 0.2rem;}
+    .regular-card .property-card .row-2 {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;}
+      .regular-card .property-card .row-2 .hours {
+        color: white;
+        font-size: 3rem;
+        font-weight: 300; }
+      .regular-card .property-card .row-2 .description {
+        color: #bdc1ff;
+        font-size: 1.5rem; }
+
+.work {
+  background-color: #ff8c66;
+  background-image: url(../images/icon-work.svg); }
+
+.play {
+  background-color: #56c2e6;
+  background-image: url(../images/icon-play.svg); }
+
+.study {
+  background-color: #ff5c7c;
+  background-image: url(../images/icon-study.svg); }
+
+.exercise {
+  background-color: #4acf81;
+  background-image: url(../images/icon-exercise.svg); }
+
+.social {
+  background-color: #7536d3;
+  background-image: url(../images/icon-social.svg); }
+
+.selfcare {
+  background-color: #f1c65b;
+  background-image: url(../images/icon-self-care.svg); }
+
+/*# sourceMappingURL=styles.css.map */
